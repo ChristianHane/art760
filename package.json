@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
   "main": "server.js",
-  "dependencies": {},
+  "dependencies": {
+    "react-router-dom": "^4.3.1"
+  },
   "devDependencies": {
     "concurrently": "^3.5.1",
     "nodemon": "^1.17.5"

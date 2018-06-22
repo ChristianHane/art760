@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {
+  Badge,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -23,7 +24,7 @@ class Header extends Component {
   render() {
     return (
       <Navbar color="dark" dark expand="lg">
-        <NavbarBrand href="/">Art760</NavbarBrand>
+        <NavbarBrand href="/">Art<Badge color="secondary">760</Badge></NavbarBrand>
         <Nav className="ml-auto">
         <NavItem>
           <NavLink href="/components/"><h4 style={hStyle}>Your Desert guide to <br></br>

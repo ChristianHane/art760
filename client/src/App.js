@@ -1,15 +1,26 @@
 import React, {Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './Components/Navbar/Navbar.js';
+
 import Header from './Components/Header.js';
+import Home from './Components/Home.js';
+import Footer from './Components/Footer.js';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header> </Header>
-        <Navbar></Navbar>
-      </div>
+      <Router>
+        <div>
+            <Header></Header>
+            <div>
+              <Switch>
+                <Route exact path="/" component={Home}/>
+              </Switch>
+            </div>
+
+          <Footer></Footer>
+        </div>
+      </Router>
+
 
     );
   }

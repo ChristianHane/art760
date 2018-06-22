@@ -31,9 +31,6 @@ class Navbar extends Component {
             <NavLink style={tabsStyle, homeStyle}href="#" active>HOME</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="#" style={tabsStyle}>ADVERTISE</NavLink>
-          </NavItem>
-          <NavItem>
             <NavLink href="#" style={tabsStyle}>ABOUT</NavLink>
           </NavItem>
           <NavItem>

@@ -1,12 +1,16 @@
 import React, {Component} from 'react';
 import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
-
+import './Navbar.css'
 var tabsStyle= {
-  color: 'gray'
+  color: 'gray',
+  padding: '30px'
 }
 var homeStyle={
-  backgroundColor: '#90ee90'
+  backgroundColor: '#90ee90',
+  padding:'30px',
+  color: 'gray'
 }
+
 class Navbar extends Component {
   constructor(props) {
     super(props);
@@ -26,9 +30,10 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <Nav tabs style={tabsStyle}>
+        <hr className="lines"></hr>
+        <Nav pills>
           <NavItem>
-            <NavLink style={tabsStyle, homeStyle}href="#" active>HOME</NavLink>
+            <NavLink style={homeStyle}href="#" active>HOME</NavLink>
           </NavItem>
           <NavItem>
             <NavLink href="#" style={tabsStyle}>ABOUT</NavLink>
@@ -37,6 +42,7 @@ class Navbar extends Component {
             <NavLink href="#" style={tabsStyle}>CONTACT</NavLink>
           </NavItem>
         </Nav>
+        <hr className="lines"></hr>
       </div>
     );
   }

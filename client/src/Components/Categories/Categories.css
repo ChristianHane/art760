@@ -1,0 +1,26 @@
+.categoryList li {
+  display: inline;
+  padding: 18px;
+}
+.categories {
+  margin-top: -330px;
+}
+.line {
+  display: block;
+   height: 2px;
+   border: 0;
+   border-top: 1px solid #8CE577;
+   margin: 1em 0;
+   padding: 0;
+   width: 100%;
+}
+
+.line2 {
+  display: block;
+   height: 2px;
+   border: 0;
+   border-top: 1px solid #1A1BE3;
+   margin: 1em 0;
+   padding: 0;
+   width: 100%;
+}

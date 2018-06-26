@@ -11,11 +11,11 @@ class App extends Component {
       <Router>
         <div>
             <Header></Header>
-            <div>
+
               <Switch>
                 <Route exact path="/" component={Home}/>
               </Switch>
-            </div>
+          
 
           <Footer></Footer>
         </div>

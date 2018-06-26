@@ -2,8 +2,8 @@ const db = require("../models");
 
 async function get(req, res) {
   try {
-    const business = await db.Business.find({ category: req.params.name });
-
+    console.log(req.params);
+    const business = await db.Business.find({ category: req.params.category });
     res.status(200).json(business);
   } catch (err) {
     throw err;
@@ -11,14 +11,7 @@ async function get(req, res) {
 }
 
 async function post(req, res) {
-  const {
-    name,
-    streetAdress,
-    zipCode,
-    phone,
-    website,
-    category
-  } = req.body;
+  const { name, streetAdress, zipCode, phone, website, category } = req.body;
   try {
     const business = await db.Game.create({
       name,

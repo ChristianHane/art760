@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Header from './Components/Header/Header.js';
 import Home from './Components/Home.js';
 import Footer from './Components/Footer/Footer.js';
+import Admin from './Components/'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 class App extends Component {

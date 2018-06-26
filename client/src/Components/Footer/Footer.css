@@ -1,0 +1,23 @@
+.footer {
+    padding: 30px;
+    width: 100%;
+    background-color: #666;
+    color: white;
+    text-align: center;
+}
+
+.iconStyle{
+    padding: 20px;
+    width: 50px;
+    background: #3B5998;
+    color: white;
+}
+.iconStyle2{
+    padding: 20px;
+    width: 50px;
+    background: #55ACEE;
+    color: white;
+}
+/*position: fixed;
+left: 0;
+bottom: 0;*/

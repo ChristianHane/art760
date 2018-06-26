@@ -1,0 +1,35 @@
+.hStyle{
+  color: 'white';
+}
+.artStyle{
+  color: '#90ee90';
+}
+.header {
+  background-color: #666;
+  padding: 1px 15px 1px 15px;
+  text-align: center;
+}
+
+#art {
+  color: #8CE577;
+}
+
+.lines {
+  display: block;
+   height: 2px;
+   border: 0;
+   border-top: 1px solid #8CE577;
+   margin: 1em 0;
+   padding: 0;
+   width: 100%;
+}
+
+.lines2 {
+  display: block;
+   height: 2px;
+   border: 0;
+   border-top: 1px solid #1A1BE3;
+   margin: 1em 0;
+   padding: 0;
+   width: 100%;
+}

@@ -11,11 +11,13 @@ async function get(req, res) {
 }
 
 async function post(req, res) {
-  const { name, streetAdress, zipCode, phone, website, category } = req.body;
+  console.log(req.body);
+  const { name, streetAddress, suite, zipCode, phone, website, category } = req.body;
   try {
-    const business = await db.Game.create({
+    const business = await db.Business.create({
       name,
-      streetAdress,
+      streetAddress,
+      suite,
       zipCode,
       phone,
       website,

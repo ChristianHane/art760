@@ -11,6 +11,7 @@ export default {
   },
   addBusiness: async function(businessInfo) {
     try {
+      console.log(businessInfo);
       const businessAdded = await axios.post('/api/business', businessInfo);
       return businessAdded;
     } catch (err) {

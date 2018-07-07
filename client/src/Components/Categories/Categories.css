@@ -1,22 +1,13 @@
-.hStyle{
-  color: 'white';
+.categoryList li {
+  display: inline;
+  padding: 15px;
+  margin-bottom: 5px;
 }
-.artStyle{
-  color: '#90ee90';
+.categoryList2 li {
+  display: inline;
+  padding: 5em;
 }
-.header {
-  background-color: #666;
-  padding: 1px 1px 1px 1px;
-  text-align: center;
-  height: 20%;
-  width: 100%;
-}
-
-#art {
-  color: #8CE577;
-}
-
-.lines {
+.line {
   display: block;
    height: 2px;
    border: 0;
@@ -26,7 +17,7 @@
    width: 100%;
 }
 
-.lines2 {
+.line2 {
   display: block;
    height: 2px;
    border: 0;
@@ -34,4 +25,10 @@
    margin: 1em 0;
    padding: 0;
    width: 100%;
+}
+
+@media (min-width: 567){
+  .categoryList li{
+    padding: 1px;
+  }
 }

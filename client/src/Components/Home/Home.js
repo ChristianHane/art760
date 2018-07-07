@@ -5,7 +5,6 @@ import Carousel from'../Carousel.js';
 import Ads from '../Ads/Ads.js';
 import MediaQuery from 'react-responsive';
 import Categories from '../Categories/Categories.js';
-import Responsive from 'react-responsive';
 
 
 class Home extends Component {

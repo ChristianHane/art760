@@ -27,6 +27,7 @@ class Categories extends Component {
             <div className="col-2">
             </div>
           </div>
+          <br></br>
           <div className="row">
             <div className="col-2">
             </div>
@@ -66,6 +67,7 @@ class Categories extends Component {
             <div className="col-2">
             </div>
           </div>
+          <br></br>
           <div className="row">
             <div className="col-2">
             </div>

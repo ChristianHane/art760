@@ -42,13 +42,13 @@ class Navbar extends Component {
           <hr className="lines"></hr>
           <Nav pills>
             <NavItem>
-              <NavLink style={desktopPills, navStyle, homeStyle}href="#" active>HOME</NavLink>
+              <NavLink style={desktopPills, navStyle}href="/" >HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" style={desktopPills, navStyle} >ABOUT</NavLink>
+              <NavLink href="/about" style={desktopPills, navStyle} >ABOUT</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" style={desktopPills, navStyle}>CONTACT</NavLink>
+              <NavLink href="/contact" style={desktopPills, navStyle}>CONTACT</NavLink>
             </NavItem>
           </Nav>
           <hr className="lines"></hr>
@@ -57,13 +57,13 @@ class Navbar extends Component {
           <hr className="lines"></hr>
           <Nav pills>
             <NavItem>
-              <NavLink style={phonePills, navStyle, homeStyle}href="#" active>HOME</NavLink>
+              <NavLink style={phonePills, navStyle}href="/" >HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" style={phonePills, navStyle} >ABOUT</NavLink>
+              <NavLink href="/about" style={phonePills, navStyle} >ABOUT</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#" style={phonePills, navStyle}>CONTACT</NavLink>
+              <NavLink href="/contact" style={phonePills, navStyle}>CONTACT</NavLink>
             </NavItem>
           </Nav>
           <hr className="lines"></hr>

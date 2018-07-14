@@ -3,7 +3,7 @@ import ImageResponsive from 'react-image-responsive';
 import './Ads.css';
 import MediaQuery from 'react-responsive';
 const sources = [
-  {maxWidth: 189, src:'http://via.placeholder.com/189x125' }
+  {maxWidth: 189, src:'http://via.placeholder.com/350x180' }
 ];
 
 class Ads extends Component {

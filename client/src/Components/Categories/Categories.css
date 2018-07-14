@@ -32,3 +32,15 @@
     padding: 1px;
   }
 }
+
+.fixme {
+  text-align: center;
+}
+
+.categoryTitle {
+  margin-left: -10px;
+}
+
+.categoryIcons {
+  height: 40px;
+}

@@ -2,8 +2,29 @@ import React, {Component} from 'react';
 import ImageResponsive from 'react-image-responsive';
 import './Ads.css';
 import MediaQuery from 'react-responsive';
-const sources = [
-  {maxWidth: 189, src:'http://via.placeholder.com/350x180' }
+import business1 from '../../Images/business1.jpg';
+import business2 from '../../Images/business2.jpeg';
+import business3 from '../../Images/business3.jpeg';
+import business4 from '../../Images/business4.jpeg';
+import business5 from '../../Images/business5.jpeg';
+import business6 from '../../Images/business6.jpeg';
+const ad1 = [
+  {maxWidth: 189, src:business1}
+];
+const ad2 = [
+  {maxWidth: 189, src:business2}
+];
+const ad3 = [
+  {maxWidth:189, src:business3}
+];
+const ad4 =[
+{maxWidth:189, src:business4}
+];
+const ad5 =[
+{maxWidth:189, src:business5}
+];
+const ad6 =[
+{maxWidth:189, src:business6}
 ];
 
 class Ads extends Component {
@@ -15,43 +36,43 @@ class Ads extends Component {
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad1}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad2}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad3}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad4}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad5}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad6}
+                height= '180px'
                 />
             </figure>
           </div>
@@ -61,43 +82,43 @@ class Ads extends Component {
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad1}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad2}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad3}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad4}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad5}
+                height= '180px'
                 />
             </figure>
             <figure>
               <ImageResponsive
                 width="20%"
-                sources={sources}
-                height= '125px'
+                sources={ad6}
+                height= '180px'
                 />
             </figure>
           </div>

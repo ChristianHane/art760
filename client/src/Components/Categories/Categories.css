@@ -27,18 +27,13 @@
    width: 100%;
 }
 
-@media (min-width: 567){
-  .categoryList li{
-    padding: 1px;
-  }
-}
 
 .fixme {
   text-align: center;
 }
 
 .categoryTitle {
-  margin-left: -10px;
+  text-align: center;
 }
 
 .categoryIcons {

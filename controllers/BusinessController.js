@@ -1,28 +1,31 @@
 const db = require("../models");
 
 async function get(req, res) {
-  try {
-    const business = await db.Business.find({ category: req.params.name });
-
-    res.status(200).json(business);
-  } catch (err) {
-    throw err;
+  if (req.params.category) {
+    try {
+      const business = await db.Business.find({ category: req.params.category });
+      res.status(200).json(business);
+    } catch (err) {
+      throw err;
+    }
+  } else {
+    try {
+      const businesses = await db.Business.find({});
+      res.status(200).json(businesses);
+    } catch(err) {
+      throw err;
+    }
   }
 }
 
 async function post(req, res) {
-  const {
-    name,
-    streetAdress,
-    zipCode,
-    phone,
-    website,
-    category
-  } = req.body;
+  console.log(req.body);
+  const { name, streetAddress, suite, zipCode, phone, website, category } = req.body;
   try {
-    const business = await db.Game.create({
+    const business = await db.Business.create({
       name,
-      streetAdress,
+      streetAddress,
+      suite,
       zipCode,
       phone,
       website,

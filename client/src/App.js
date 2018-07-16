@@ -5,9 +5,10 @@ import Home from './Components/Home/Home.js';
 import About from './Components/About/About.js';
 import Contact from './Components/Contact/Contact.js';
 import Footer from './Components/Footer/Footer.js';
-
+import Admin from './Components/Admin/AdminPage';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
+
 class App extends Component {
   render() {
     return (
@@ -17,16 +18,14 @@ class App extends Component {
 
               <Switch>
                 <Route exact path="/" component={Home}/>
+                <Route exact path="/admin" component={Admin}/>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/contact" component={Contact}/>
               </Switch>
 
-
           <Footer></Footer>
         </div>
       </Router>
-
-
     );
   }
 }

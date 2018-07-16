@@ -9,6 +9,11 @@ import organization from '../../Images/organization.png';
 import film from '../../Images/film.png';
 import retail from '../../Images/retail.png';
 import theatre from '../../Images/theatre.png';
+
+const organizationLeft = {
+  marginLeft: -30,
+}
+
 class Categories extends Component {
   render(){
     return(
@@ -22,7 +27,7 @@ class Categories extends Component {
             <div className="col-2">
               <img className="img-responsive categoryIcons " src={museum}/>
               <br></br>
-              <h5>MUSEUMS</h5>
+              <h5 className="left">MUSEUMS</h5>
             </div>
             <div className="col-2">
               <img className="img-responsive categoryIcons " src={art}/>
@@ -78,7 +83,7 @@ class Categories extends Component {
             <div className="col-2">
               <img className="img-responsive categoryIcons " src={museum}/>
               <br></br>
-              <h5 className="categoryTitle">MUSEUMS</h5>
+              <h5 className="left">MUSEUMS</h5>
             </div>
             <div className="col-2">
               <img className="img-responsive categoryIcons " src={art}/>
@@ -105,7 +110,7 @@ class Categories extends Component {
             <div className="col-2">
               <img className="img-responsive categoryIcons" src={organization}/>
               <br></br>
-              <h7>ORGANIZATIONS</h7>
+              <h7 style={organizationLeft}>ORGANIZATIONS</h7>
             </div>
             <div className="col-2">
               <img className="img-responsive categoryIcons " src={film}/>

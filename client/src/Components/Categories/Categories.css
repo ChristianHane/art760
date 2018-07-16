@@ -32,8 +32,8 @@
   text-align: center;
 }
 
-.categoryTitle {
-  text-align: center;
+.left {
+  margin-left: -10px;
 }
 
 .categoryIcons {

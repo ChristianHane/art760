@@ -25,5 +25,15 @@ export default {
     } catch(err) {
       throw err;
     }
+  },
+  getAllBusinesses: async function() {
+    try {
+      console.log('here');
+      const allBusinesses = await axios.get('/api/businesses');
+      console.log(allBusinesses.data);
+      return allBusinesses.data;
+    } catch(err) {
+      throw err;
+    }
   }
 }

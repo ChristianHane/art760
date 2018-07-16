@@ -13,6 +13,10 @@ const businessSchema = new Schema({
   suite: {
     type: Number
   },
+  city: {
+    type: String,
+    required: true,
+  },
   zipCode: {
     type: String,
     required: true,

@@ -1,12 +1,20 @@
 const db = require("../models");
 
 async function get(req, res) {
-  try {
-    console.log(req.params);
-    const business = await db.Business.find({ category: req.params.category });
-    res.status(200).json(business);
-  } catch (err) {
-    throw err;
+  if (req.params.category) {
+    try {
+      const business = await db.Business.find({ category: req.params.category });
+      res.status(200).json(business);
+    } catch (err) {
+      throw err;
+    }
+  } else {
+    try {
+      const businesses = await db.Business.find({});
+      res.status(200).json(businesses);
+    } catch(err) {
+      throw err;
+    }
   }
 }
 

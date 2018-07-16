@@ -27,8 +27,15 @@
    width: 100%;
 }
 
-@media (min-width: 567){
-  .categoryList li{
-    padding: 1px;
-  }
+
+.fixme {
+  text-align: center;
+}
+
+.left {
+  margin-left: -10px;
+}
+
+.categoryIcons {
+  height: 40px;
 }

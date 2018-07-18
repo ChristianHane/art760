@@ -18,120 +18,104 @@ class Categories extends Component {
   render(){
     return(
       <div className="container clearfix">
-        <hr className="line"></hr>
         <hr className="line2"></hr>
-        <MediaQuery query='(min-width:768px)'>
-          <div className="row fixme">
-            <div className="col-2">
+        <hr className="line"></hr>
+          <MediaQuery query='(min-width:768px)'>
+            <div className="row fixme">
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={museum}/>
+                <br></br>
+                <a href="#"className="museum">MUSEUMS</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={art}/>
+                <br></br>
+                <a href="#"lassName="btn">ART GALLERIES</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={events}/>
+                <br></br>
+                <a href="#" className="btn">EVENTS & TOURS</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={entertainment}/>
+                <br></br>
+                <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+              </div>
             </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={museum}/>
-              <br></br>
-              <h5 className="left">MUSEUMS</h5>
+            <br></br>
+            <div className="row">
+              <div className="col-3">
+                <img className="img-fluid float-left categoryIcons " src={organization}/>
+                <br></br>
+                <a href="#" className="btn">ORGANIZATIONS</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={film}/>
+                <br></br>
+                <a href="#" className="btn">FILM <br></br>& MOVIES</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={retail}/>
+                <br></br>
+                <a href="#" className="btn">RETAIL/OTHER</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={theatre}/>
+                <br></br>
+                <a href="#" className="btn">THEATRE & STAGE</a>
+              </div>
             </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={art}/>
-              <br></br>
-              <h7>ART GALLERIES</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={events}/>
-              <br></br>
-              <h7>EVENTS & TOURS</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={entertainment}/>
-              <br></br>
-              <h7>LIVE ENTERTAINMENT</h7>
-            </div>
-            <div className="col-2">
-            </div>
-          </div>
-          <br></br>
-          <div className="row">
-            <div className="col-2">
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={organization}/>
-              <br></br>
-              <h7>ORGANIZATIONS</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={film}/>
-              <br></br>
-              <h7>FILM & MOVIES</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={retail}/>
-              <br></br>
-              <h7>RETAIL/OTHER</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={theatre}/>
-              <br></br>
-              <h7>THEATRE & STAGE</h7>
-            </div>
-            <div className="col-2">
-            </div>
-          </div>
 
-        </MediaQuery>
-        <MediaQuery query='(max-width:768px)'>
-          <div className="row fixme">
-            <div className="col-2">
+          </MediaQuery>
+          <MediaQuery query='(max-width:768px)'>
+            <div className="row fixme">
+              <div className="col-3">
+                <img className="img-fluid float-left categoryIcons " src={museum}/>
+                <br></br>
+                <a href="#" className="btn">MUSEUM</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={art}/>
+                <br></br>
+                <a href="#" className="btn">ART GALLERIES</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={events}/>
+                <br></br>
+                <a href="#" className="btn">EVENTS & TOURS</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={entertainment}/>
+                <br></br>
+                <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+              </div>
             </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={museum}/>
-              <br></br>
-              <h5 className="left">MUSEUMS</h5>
+            <div className="row">
+              <div className="col-3">
+                <img className="img-fluid categoryIcons" src={organization}/>
+                <br></br>
+                <a href="#" className="btn" style={organizationLeft}>ORGANIZATIONS</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={film}/>
+                <br></br>
+                <a href="#" className="btn">FILM & MOVIES</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={retail}/>
+                <br></br>
+                <a href="#" className="btn">RETAIL/OTHER</a>
+              </div>
+              <div className="col-3">
+                <img className="img-fluid categoryIcons " src={theatre}/>
+                <br></br>
+                <a href="#" className="btn">THEATRE & STAGE</a>
+              </div>
             </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={art}/>
-              <br></br>
-              <h7>ART GALLERIES</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={events}/>
-              <br></br>
-              <h7>EVENTS & TOURS</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={entertainment}/>
-              <br></br>
-              <h7>LIVE ENTERTAINMENT</h7>
-            </div>
-            <div className="col-2">
-            </div>
-          </div>
-          <br></br>
-          <div className="row">
-            <div className="col-2">
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons" src={organization}/>
-              <br></br>
-              <h7 style={organizationLeft}>ORGANIZATIONS</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={film}/>
-              <br></br>
-              <h7>FILM & MOVIES</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={retail}/>
-              <br></br>
-              <h7>RETAIL/OTHER</h7>
-            </div>
-            <div className="col-2">
-              <img className="img-responsive categoryIcons " src={theatre}/>
-              <br></br>
-              <h7>THEATRE & STAGE</h7>
-            </div>
-            <div className="col-2">
-            </div>
-          </div>
 
-        </MediaQuery>
+          </MediaQuery>
+
         <hr className="line"></hr>
         <hr className="line2"></hr>
       </div>
@@ -140,39 +124,3 @@ class Categories extends Component {
 }
 
 export default Categories;
-// <MediaQuery query='(min-width:768px)'>
-//   <div className="col-xs-12 col-md-12 float-left">
-//     <hr className="line"></hr>
-//     <hr className="line2"></hr>
-//     <ul className="categoryList">
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//     </ul>
-//     <hr className="line"></hr>
-//     <hr className="line2"></hr>
-//   </div>
-// </MediaQuery>
-// <MediaQuery query='(max-width:768px)'>
-//   <div className="col-12">
-//     <hr className="line"></hr>
-//     <hr className="line2"></hr>
-//     <ul className="categoryList2">
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//       <li><img className="img-responsive" src="http://via.placeholder.com/100x100"/></li>
-//     </ul>
-//     <hr className="line"></hr>
-//     <hr className="line2"></hr>
-//   </div>
-// </MediaQuery>

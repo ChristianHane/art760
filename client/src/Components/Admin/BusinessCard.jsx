@@ -1,19 +1,26 @@
 import React, { Component } from 'react';
-
+const btnStyle = {
+  marginLeft: 10
+}
 class BusinessCard extends Component {
   render() {
     return (
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-6'>
-            <p>{this.props.business.name}</p>
-            <p>{`${this.props.business.streetAddress} ${this.props.business.city} ${this.props.business.zipCode}`}</p>
-          </div>
-          <div className='col-md-6'>
-            
+      <li className="list-group-item">
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-6'>
+              <p>Business Name: {this.props.business.name}</p>
+              <p>Address: {`${this.props.business.streetAddress} ${this.props.business.city} ${this.props.business.zipCode}`}</p>
+              <p>Website: {this.props.business.website}</p>
+              <p>Category: {this.props.business.category}</p>
+            </div>
+            <div className='col-md-6'>
+              <button className="btn-primary">Edit</button>
+              <button style={btnStyle}className="btn-danger">Remove</button>
+            </div>
           </div>
         </div>
-      </div> 
+      </li>
     )
   }
 }

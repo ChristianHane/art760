@@ -22,9 +22,11 @@ class AddModal extends React.Component {
       businessName: "",
       streetAddress: "",
       suite: "",
+      city: "",
       zipCode: "",
       phone: "",
       website: "",
+      email: "",
       category: []
     };
 
@@ -42,7 +44,10 @@ class AddModal extends React.Component {
     if (!category || category.length === 0) {
       this.setState({ category: [value] });
     } else {
-      this.setState({ ...this.state, category: [...this.state.category, value] });
+      this.setState({
+        ...this.state,
+        category: [...this.state.category, value]
+      });
     }
   };
 
@@ -62,8 +67,10 @@ class AddModal extends React.Component {
         streetAddress: this.state.streetAddress,
         suite: this.state.suite,
         zipCode: this.state.zipCode,
+        city: this.state.city,
         phone: this.state.phone,
         website: this.state.website,
+        email: this.state.email,
         category: this.state.category
       };
       await API.addBusiness(newBusiness);
@@ -71,9 +78,11 @@ class AddModal extends React.Component {
         showModal: false,
         businessName: "",
         streetAddress: "",
+        city: "",
         zipCode: "",
         phone: "",
         website: "",
+        email: "",
         category: []
       });
     } catch (err) {
@@ -102,6 +111,7 @@ class AddModal extends React.Component {
     var buttonStyle = {
       paddingTop: "20px"
     };
+    console.log(this.state);
     return (
       <div className="container">
         <div style={buttonStyle}>
@@ -148,6 +158,16 @@ class AddModal extends React.Component {
                   />
                 </FormGroup>
                 <FormGroup>
+                  <Label for="exampleSelect">City</Label>
+                  <Input type="select" name="city" id="exampleSelect" onChange={this.handleInputChange}>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup>
                   <Label for="zipCode">Zip Code</Label>
                   <Input
                     type="text"
@@ -172,8 +192,18 @@ class AddModal extends React.Component {
                   <Input
                     type="text"
                     name="website"
-                    placeholder="Website"
+                    placeholder="www.example.com"
                     value={this.state.website}
+                    onChange={this.handleInputChange}
+                  />
+                </FormGroup>
+                <FormGroup>
+                  <Label for="email">Email address</Label>
+                  <Input
+                    type="text"
+                    name="email"
+                    placeholder="example@example.com"
+                    value={this.state.email}
                     onChange={this.handleInputChange}
                   />
                 </FormGroup>

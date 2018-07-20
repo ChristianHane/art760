@@ -20,6 +20,7 @@ class AdminPage extends Component {
   render() {
     console.log(this.state);
     return (
+
       <div className="container">
         <div className="row">
           <div className="col-8">
@@ -35,6 +36,7 @@ class AdminPage extends Component {
             </ul>
           </div>
         </div>
+
       </div>
     )
   }

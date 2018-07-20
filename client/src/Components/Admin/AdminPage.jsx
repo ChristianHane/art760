@@ -20,11 +20,23 @@ class AdminPage extends Component {
   render() {
     console.log(this.state);
     return (
-      <div>
-        <AddBusinessModal />
-        {this.state.businesses.map(((business, index) => {
-          return <BusinessCard business={business} />
-        }))}
+
+      <div className="container">
+        <div className="row">
+          <div className="col-8">
+            <AddBusinessModal />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-8">
+            <ul className="list-group">
+              {this.state.businesses.map(business => {
+                return <BusinessCard business={business} />
+              })}
+            </ul>
+          </div>
+        </div>
+
       </div>
     )
   }

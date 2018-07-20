@@ -21,7 +21,7 @@
   display: block;
    height: 2px;
    border: 0;
-   border-top: 1px solid #1A1BE3;
+   border-top: 1px solid #e49f00;
    margin: 1em 0;
    padding: 0;
    width: 100%;
@@ -32,10 +32,13 @@
   text-align: center;
 }
 
-.left {
+.museum {
   margin-left: -10px;
 }
 
 .categoryIcons {
   height: 40px;
+}
+.compIcons {
+  margin-left: 60px;
 }

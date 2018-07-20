@@ -46,22 +46,22 @@ class Categories extends Component {
             <br></br>
             <div className="row">
               <div className="col-3">
-                <img className="img-fluid float-left categoryIcons " src={organization}/>
+                <img className="img-fluid float-left categoryIcons compIcons " src={organization}/>
                 <br></br>
                 <a href="#" className="btn">ORGANIZATIONS</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={film}/>
+                <img className="img-fluid categoryIcons compIcons" src={film}/>
                 <br></br>
-                <a href="#" className="btn">FILM <br></br>& MOVIES</a>
+                <a href="#" className="btn">FILM & MOVIES</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={retail}/>
+                <img className="img-fluid categoryIcons compIcons" src={retail}/>
                 <br></br>
                 <a href="#" className="btn">RETAIL/OTHER</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={theatre}/>
+                <img className="img-fluid categoryIcons compIcons" src={theatre}/>
                 <br></br>
                 <a href="#" className="btn">THEATRE & STAGE</a>
               </div>

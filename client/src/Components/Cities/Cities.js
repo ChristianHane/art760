@@ -10,20 +10,36 @@ class Cities extends Component {
             <div className="col-4">
               <button className="btn here red">PALM SPRINGS</button>
               <br></br>
-              <br></br>
-              <button className="btn here orange">PALM DESERT</button>
+
+              <button className="btn here orange">RANCHO MIRAGE</button>
             </div>
             <div className="col-4">
-              <button className="btn here yellow">CATHEDRAL CITY</button>
+              <button className="btn here yellow">PALM DESERT</button>
               <br></br>
-              <br></br>
-              <button className="btn here green">INDIO</button>
+
+              <button className="btn here green">CATHEDRAL CITY</button>
             </div>
             <div className="col-4">
-              <button className="btn here blue">LA QUINTA</button>
+              <button className="btn here blue">INDIAN WELLS</button>
               <br></br>
+
+              <button className="btn here purple">LA QUINTA</button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <button className="btn here pink">INDIO</button>
               <br></br>
-              <button className="btn here purple">PALM SPRINGS</button>
+
+              <button className="btn here lightgreen">DESERT HOT SPRINGS</button>
+            </div>
+            <div className="col-4">
+              <button className="btn here teal">HIGH DESERT</button>
+              <br></br>
+
+              <button className="btn here black">COACHELLA VALLEY</button>
+            </div>
+            <div className="col-4">
             </div>
           </div>
         </MediaQuery>
@@ -32,20 +48,34 @@ class Cities extends Component {
             <div className="col-4">
               <button className="btn here red">PALM SPRINGS</button>
               <br></br>
-              <br></br>
+
               <button className="btn here orange">PALM DESERT</button>
             </div>
             <div className="col-4">
               <button className="btn here yellow">CATHEDRAL CITY</button>
-              <br></br>
               <br></br>
               <button className="btn here green">INDIO</button>
             </div>
             <div className="col-4">
               <button className="btn here blue">LA QUINTA</button>
               <br></br>
-              <br></br>
               <button className="btn here purple">PALM SPRINGS</button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-4">
+              <button className="btn here pink">INDIO</button>
+              <br></br>
+
+              <button className="btn here lightgreen">DESERT HOT SPRINGS</button>
+            </div>
+            <div className="col-4">
+              <button className="btn here teal">HIGH DESERT</button>
+              <br></br>
+
+              <button className="btn here black">COACHELLA VALLEY</button>
+            </div>
+            <div className="col-4">
             </div>
           </div>
         </MediaQuery>

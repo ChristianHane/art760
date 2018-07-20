@@ -16,7 +16,21 @@ color: green
 .purple {
 color: purple
 }
-
+.pink {
+  color: pink;
+}
+.lightgreen {
+color: lightgreen
+}
+.teal {
+  color: teal;
+}
+.black {
+color: black;
+}
 .here {
+  height: 40px;
+  width:100%;
   background-color: #EDE7D5;
+  font-size: 20px;
 }

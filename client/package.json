@@ -4,6 +4,7 @@
   "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
+    "jw-react-pagination": "^1.0.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-image-responsive": "^2.0.2",

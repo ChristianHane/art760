@@ -22,9 +22,9 @@ class AdminPage extends Component {
     return (
       <div>
         <AddBusinessModal />
-        {this.state.businesses.map(business => {
+        {this.state.businesses.map(((business, index) => {
           return <BusinessCard business={business} />
-        })}
+        }))}
       </div>
     )
   }

@@ -28,10 +28,29 @@ export default {
   },
   getAllBusinesses: async function() {
     try {
-      console.log('here');
       const allBusinesses = await axios.get('/api/businesses');
       console.log(allBusinesses.data);
       return allBusinesses.data;
+    } catch(err) {
+      throw err;
+    }
+  },
+  getCategoryResults: async function(category) {
+    try {
+      const categoryBusinesses = await axios.get(`/api/businesses/${category}`, {
+        category: category,
+      })
+      return categoryBusinesses.data;
+    } catch(err) {
+      throw err;
+    }
+  },
+  getCityResults: async function(city) {
+    try {
+      const cityBusinesses = await axios.get('/api/city', {
+        city: city,
+      })
+      return cityBusinesses;
     } catch(err) {
       throw err;
     }

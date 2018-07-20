@@ -32,6 +32,10 @@ const businessSchema = new Schema({
   category: {
     type: Array,
     required: true,
+  },
+  email: {
+    type: String,
+    required: false,
   }
 })
 

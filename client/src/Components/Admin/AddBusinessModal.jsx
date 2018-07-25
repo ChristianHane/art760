@@ -160,11 +160,23 @@ class AddModal extends React.Component {
                 <FormGroup>
                   <Label for="exampleSelect">City</Label>
                   <Input type="select" name="city" id="exampleSelect" onChange={this.handleInputChange}>
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                    <option>La Quinta</option>
+                    <option>Palm Springs</option>
+                    <option>Indio</option>
+                    <option>Coachella</option>
+                    <option>Palm Desert</option>
+                    <option>Desert Hot Springs</option>
+                    <option>Indian Wells</option>
+                    <option>Palm Desert</option>
+                    <option>Rancho Mirage</option>
+                    <option>Cathedral City</option>
+                    <option>Idyllwild</option>
+                    <option>Joshua Tree</option>
+                    <option>Morongo</option>
+                    <option>Yucca Valley</option>
+                    <option>Mecca</option>
+                    <option>Borrego Springs</option>
+                    <option>Salton Sea</option>
                   </Input>
                 </FormGroup>
                 <FormGroup>
@@ -211,42 +223,42 @@ class AddModal extends React.Component {
                   <Label for="category">Categories</Label>
                   <div>
                     <CheckBox
-                      category="Category1"
+                      category="Museums"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category2"
+                      category="Art Galleries"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category3"
+                      category="Events and Tours"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category4"
+                      category="Live Entertainment"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category5"
+                      category="Organizations"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category6"
+                      category="Films and Movies"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category7"
+                      category="Theatre and Stage"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Category8"
+                      category="Retail/Other"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />

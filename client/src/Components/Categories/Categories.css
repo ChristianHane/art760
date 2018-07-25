@@ -1,3 +1,6 @@
+.btn {
+color:black}
+
 .categoryList li {
   display: inline;
   padding: 15px;
@@ -41,4 +44,10 @@
 }
 .compIcons {
   margin-left: 60px;
+}
+
+.here:link {
+  color:black;
+  font-size: 15px;
+  margin-left: -10px;
 }

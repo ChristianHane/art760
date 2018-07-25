@@ -7,6 +7,7 @@ import Contact from './Components/Contact/Contact.js';
 import Footer from './Components/Footer/Footer.js';
 import Admin from './Components/Admin/AdminPage';
 import ResultsPage from './Components/Results/ResultsPage';
+import NoMatch from './Components/NoMatch/NoMatch.js';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
@@ -23,6 +24,7 @@ class App extends Component {
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/results" component={ResultsPage}/>
+                <Route component={NoMatch}></Route>
               </Switch>
           <Footer></Footer>
         </div>

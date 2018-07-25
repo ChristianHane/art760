@@ -25,12 +25,12 @@ class Categories extends Component {
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={museum}/>
                 <br></br>
-                <a href="#"className="museum">MUSEUMS</a>
+                <a href="#"className="btn museum">MUSEUMS</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={art}/>
                 <br></br>
-                <a href="#"lassName="btn">ART GALLERIES</a>
+                <a href="#" className="btn">ART GALLERIES</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={events}/>
@@ -68,49 +68,49 @@ class Categories extends Component {
             </div>
 
           </MediaQuery>
-          <MediaQuery query='(max-width:768px)'>
+          <MediaQuery query='(max-width:767px)'>
             <div className="row fixme">
               <div className="col-3">
                 <img className="img-fluid float-left categoryIcons " src={museum}/>
                 <br></br>
-                <a href="#" className="btn">MUSEUM</a>
+                <a href="#" className="btn here">MUSEUM</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={art}/>
                 <br></br>
-                <a href="#" className="btn">ART GALLERIES</a>
+                <a href="#" className="btn here">ART GALLERIES</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={events}/>
                 <br></br>
-                <a href="#" className="btn">EVENTS & TOURS</a>
+                <a href="#" className="btn here">EVENTS & TOURS</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={entertainment}/>
                 <br></br>
-                <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+                <a href="#" className="btn here">LIVE ENTERTAINMENT</a>
               </div>
             </div>
             <div className="row">
               <div className="col-3">
                 <img className="img-fluid categoryIcons" src={organization}/>
                 <br></br>
-                <a href="#" className="btn" style={organizationLeft}>ORGANIZATIONS</a>
+                <a href="#" className="btn here" style={organizationLeft}>ORGANIZATIONS</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={film}/>
                 <br></br>
-                <a href="#" className="btn">FILM & MOVIES</a>
+                <a href="#" className="btn here">FILM & MOVIES</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={retail}/>
                 <br></br>
-                <a href="#" className="btn">RETAIL/OTHER</a>
+                <a href="#" className="btn here">RETAIL/OTHER</a>
               </div>
               <div className="col-3">
                 <img className="img-fluid categoryIcons " src={theatre}/>
                 <br></br>
-                <a href="#" className="btn">THEATRE & STAGE</a>
+                <a href="#" className="btn here">THEATRE & STAGE</a>
               </div>
             </div>
 

@@ -27,7 +27,7 @@ class Header extends Component {
         <hr className="lines2"></hr>
       </div>
     </MediaQuery>
-    <MediaQuery query="(max-width:768px)">
+    <MediaQuery query="(max-width:767px)">
       <div className="header2">
       <hr className="lines2"></hr>
       <hr className="lines"></hr>

@@ -43,7 +43,7 @@ class Cities extends Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery query='(max-width: 768px)'>
+        <MediaQuery query='(max-width: 767px)'>
           <div className="row">
             <div className="col-4">
               <button className="btn here red">PALM SPRINGS</button>

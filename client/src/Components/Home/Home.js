@@ -31,7 +31,7 @@ class Home extends Component {
               </MediaQuery>
 
 
-              <MediaQuery query="(max-width:768px)">
+              <MediaQuery query="(max-width:767px)">
                 <div className="row">
                   <div className="col-12">
                     <Navbar></Navbar>

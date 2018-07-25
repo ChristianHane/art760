@@ -25,6 +25,7 @@ class AdminPage extends Component {
         <div className="row">
           <div className="col-8">
             <AddBusinessModal />
+            <br></br>
           </div>
         </div>
         <div className="row">
@@ -34,7 +35,9 @@ class AdminPage extends Component {
                 return <BusinessCard business={business} />
               })}
             </ul>
+            <br></br>
           </div>
+
         </div>
 
       </div>

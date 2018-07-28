@@ -19,15 +19,15 @@ class AddModal extends React.Component {
     super(props);
     this.state = {
       showModal: false,
-      businessName: "",
-      streetAddress: "",
-      suite: "",
-      city: "",
-      zipCode: "",
-      phone: "",
-      website: "",
-      email: "",
-      category: []
+      businessName: this.props.business.name,
+      streetAddress: this.props.business.streetAddress,
+      suite: this.props.business.suite ? this.props.business.suite : null,
+      city: this.props.business.city,
+      zipCode: this.props.business.zipCode,
+      phone: this.props.business.phone,
+      website: this.props.business.website,
+      email: this.props.business.email,
+      category: [],
     };
 
     this.toggle = this.toggle.bind(this);
@@ -160,7 +160,6 @@ class AddModal extends React.Component {
                 <FormGroup>
                   <Label for="exampleSelect">City</Label>
                   <Input type="select" name="city" id="exampleSelect" onChange={this.handleInputChange}>
-                    <option></option>
                     <option>La Quinta</option>
                     <option>Palm Springs</option>
                     <option>Indio</option>
@@ -259,7 +258,7 @@ class AddModal extends React.Component {
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Retail and Other"
+                      category="Retail/Other"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />

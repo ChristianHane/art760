@@ -5,7 +5,8 @@ import MediaQuery from 'react-responsive';
 class Cities extends Component {
   render(){
     return(
-      <div>
+      <div className="cities">
+        <p className="intro">THIS IS A COLOR CODED ALPHABETICAL LISTING OF ALL THE VENUES, GALLERIES, SHOPS, RESTAURANTS AND EVERYTHING ELSE THE PALM SPRINGS AREA HAS TO OFFER</p>
         <MediaQuery query='(min-width: 768px)'>
           <div className="row">
             <div className="col-4">
@@ -14,12 +15,14 @@ class Cities extends Component {
 
               <Link to='/results?type=city&city=Rancho Mirage' ><button className="btn here orange">RANCHO MIRAGE</button></Link>
             </div>
+
             <div className="col-4">
               <Link to='/results?type=city&city=Palm Desert' ><button className="btn here yellow">PALM DESERT</button></Link>
               <br></br>
 
               <Link to='/results?type=city&city=Cathedral City' ><button className="btn here green">CATHEDRAL CITY</button></Link>
             </div>
+
             <div className="col-4">
               <Link to='/results?type=city&city=Indian Wells' ><button className="btn here blue">INDIAN WELLS</button></Link>
               <br></br>
@@ -33,14 +36,19 @@ class Cities extends Component {
               <br></br>
 
               <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here lightgreen">DESERT HOT SPRINGS</button></Link>
+
             </div>
+
             <div className="col-4">
               <Link to='/results?type=city&city=High Desert' ><button className="btn here teal">HIGH DESERT</button></Link>
               <br></br>
 
               <Link to='/results?type=city&city=Coachella' ><button className="btn here black">COACHELLA VALLEY</button></Link>
+
             </div>
+
             <div className="col-4">
+              <button className="btn here2 CoachellaValley">COACHELLA VALLEY</button>
             </div>
           </div>
         </MediaQuery>
@@ -51,16 +59,23 @@ class Cities extends Component {
               <br></br>
 
               <Link to='/results?type=city&city=Rancho Mirage' ><button className="btn here orange">RANCHO MIRAGE</button></Link>
+
             </div>
+
             <div className="col-4">
+
               <Link to='/results?type=city&city=Palm Desert' ><button className="btn here yellow">PALM DESERT</button></Link>
               <br></br>
               <Link to='/results?type=city&city=Cathedral City' ><button className="btn here green">CATHEDRAL CITY</button></Link>
+
             </div>
+
             <div className="col-4">
+
               <Link to='/results?type=city&city=Indian Wells' ><button className="btn here blue">INDIAN WELLS</button></Link>
               <br></br>
               <Link to='/results?type=city&city=La Quinta' ><button className="btn here purple">LA QUINTA</button></Link>
+
             </div>
           </div>
           <div className="row">
@@ -69,14 +84,19 @@ class Cities extends Component {
               <br></br>
 
               <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here lightgreen">DESERT HOT SPRINGS</button></Link>
+
             </div>
+
             <div className="col-4">
               <Link to='/results?type=city&city=High Desert' ><button className="btn here teal">HIGH DESERT</button></Link>
               <br></br>
 
               <Link to='/results?type=city&city=Coachella' ><button className="btn here black">COACHELLA VALLEY</button></Link>x
+
             </div>
+
             <div className="col-4">
+              <button className="btn here2 CoachellaValley">COACHELLA VALLEY</button>
             </div>
           </div>
         </MediaQuery>

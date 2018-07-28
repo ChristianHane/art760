@@ -1,36 +1,48 @@
-.red {
-  color: red;
-}
-.orange {
-color: orange;
-}
-.yellow {
-  color: yellow;
-}
-.green {
-color: green
-}
-.blue {
-  color: blue;
-}
-.purple {
-color: purple
-}
-.pink {
-  color: pink;
-}
-.lightgreen {
-color: lightgreen
-}
-.teal {
-  color: teal;
-}
-.black {
-color: black;
-}
-.here {
+.here2 {
   height: 40px;
   width:100%;
   background-color: #EDE7D5;
   font-size: 20px;
+  font-weight: 800;
+}
+.intro {
+  width: 70%;
+  text-align: center;
+  margin-left: 90px;
+}
+.cities {
+  font-weight:800;
+}
+.PalmSprings {
+  color: #F42272;
+}
+.PalmDesert {
+  color: #EFAAC4;
+}
+.IndianWells {
+  color: #56A3A6;
+}
+.RanchoMirage {
+color: #D1ADFF;
+}
+.CathedralCity {
+color: #90EE90;
+}
+.LaQuinta{
+  color:#E49F00;
+}
+.Indio {
+  color: #A30015;
+}
+.HighDesert {
+  color: #26C9F2;
+}
+.CoachellaValley {
+  color: #C1B23E;
+}
+.DesertHotSprings {
+  color: #FF7A28;
+}
+.Idyllwild {
+
 }

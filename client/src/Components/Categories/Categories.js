@@ -71,7 +71,7 @@ class Categories extends Component {
           <MediaQuery query='(max-width:767px)'>
             <div className="row fixme">
               <div className="col-3">
-                <img className="img-fluid float-left categoryIcons " src={museum}/>
+                <img className="img-fluid categoryIcons " src={museum}/>
                 <br></br>
                 <a href="#" className="btn here">MUSEUM</a>
               </div>
@@ -93,7 +93,7 @@ class Categories extends Component {
             </div>
             <div className="row">
               <div className="col-3">
-                <img className="img-fluid categoryIcons" src={organization}/>
+                <img className="img-fluid floar-right categoryIcons" src={organization}/>
                 <br></br>
                 <a href="#" className="btn here" style={organizationLeft}>ORGANIZATIONS</a>
               </div>

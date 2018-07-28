@@ -12,7 +12,7 @@ class Header extends Component {
       <hr className="lines"></hr>
         <div className="container-fluid clearfix">
           <div className="col-md-6 float-left">
-            <img className="logo"src={logo}/>
+            <a href="/"><img className="logo"src={logo}/></a>
             </div>
           <div className="col-md-6 float-right">
             <div className="side">
@@ -33,7 +33,7 @@ class Header extends Component {
       <hr className="lines"></hr>
         <div className="container-fluid clearfix">
           <div className="col-md-6 float-left">
-            <img className="logo"src={logo}/>
+            <a href="/"><img className="logo"src={logo}/></a>
             </div>
           <div className="col-md-6 float-right">
             <div className="side">

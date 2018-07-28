@@ -26,12 +26,12 @@ class Contact extends Component {
                   (760)837-1800 ext.4
                 </div>
                 <div className="col-4">
-                  <a href="mailto:hanemiranda@aol.com"><img src={email} className="icons"/></a>
+                  <a href="mailto:kip@art760.com"><img src={email} className="icons"/></a>
                   <br></br>
                   kip@art760.com
                 </div>
                 <div className="col-4">
-                  <img className="icons" src={mailPin}/>
+                  <a target="_blank"href="http://maps.google.com/?q=1775 East Palm Canyon Drive, Palm Springs, California, 92264"><img className="icons" src={mailPin}/></a>
                   <br></br>
                   1775 East Palm Canyon Drive Ste. 110-250
                   Palm Springs, CA 92264
@@ -59,12 +59,12 @@ class Contact extends Component {
                     (760)837-1800 ext.4
                   </div>
                   <div className="col-4">
-                    <a href="mailto:hanemiranda@aol.com"><img src={email} className="icons"/></a>
+                    <a href="mailto:kip@art760.com"><img src={email} className="icons"/></a>
                     <br></br>
                     kip@art760.com
                   </div>
                   <div className="col-4">
-                    <img className="icons" src={mailPin}/>
+                    <a target="_blank"href="http://maps.google.com/?q=1775 East Palm Canyon Drive, Palm Springs, California, 92264"><img className="icons" src={mailPin}/></a>
                     <br></br>
                     1775 East Palm Canyon Drive Ste. 110-250
                     Palm Springs, CA 92264

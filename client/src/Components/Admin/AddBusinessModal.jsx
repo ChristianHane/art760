@@ -160,6 +160,7 @@ class AddModal extends React.Component {
                 <FormGroup>
                   <Label for="exampleSelect">City</Label>
                   <Input type="select" name="city" id="exampleSelect" onChange={this.handleInputChange}>
+                    <option></option>
                     <option>La Quinta</option>
                     <option>Palm Springs</option>
                     <option>Indio</option>

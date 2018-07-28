@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import AddBusinessModal from './AddBusinessModal';
 import BusinessCard from './BusinessCard';
+import Legend from '../Legend/Legend.jsx';
 import API from '../../utils/API';
 
 class AdminPage extends Component {
@@ -21,12 +22,13 @@ class AdminPage extends Component {
     console.log(this.state);
     return (
 
-      <div className="container">
+      <div className="container clearfix">
         <div className="row">
-          <div className="col-8">
+          <div className="col-8 float-left">
             <AddBusinessModal />
             <br></br>
           </div>
+
         </div>
         <div className="row">
           <div className="col-8">
@@ -36,6 +38,9 @@ class AdminPage extends Component {
               })}
             </ul>
             <br></br>
+          </div>
+          <div className="col-4 float-right">
+            <Legend/>
           </div>
 
         </div>

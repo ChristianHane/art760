@@ -8,7 +8,7 @@
   background-color: #666;
   padding: 1px 1px 1px 1px;
   text-align: center;
-  height: 20%;
+  height: 225px;
   width: 100%;
 }
 
@@ -30,8 +30,21 @@
   display: block;
    height: 2px;
    border: 0;
-   border-top: 1px solid #1A1BE3;
+   border-top: 1px solid #e49f00;
    margin: 1em 0;
    padding: 0;
    width: 100%;
+}
+.side {
+  padding-top: 20px;
+}
+.logo {
+  width: 500px;
+}
+.header2 {
+  background-color: #666;
+  padding: 1px 1px 1px 1px;
+  text-align: center;
+  height: 330px;
+  width: 100%;
 }

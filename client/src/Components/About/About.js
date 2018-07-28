@@ -43,7 +43,7 @@ class About extends Component {
           </div>
         </MediaQuery>
 
-        <MediaQuery query='(max-width:768px)'>
+        <MediaQuery query='(max-width:767px)'>
           <div className="row">
             <div className="col-12">
               <Navbar></Navbar>

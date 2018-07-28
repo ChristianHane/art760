@@ -21,12 +21,12 @@ class Contact extends Component {
               <br></br>
               <div className="row assets">
                 <div className="col-4">
-                  <img src={phone} className="icons" />
+                  <a href="tel:7608371800"><img src={phone} className="icons" /></a>
                   <br></br>
                   (760)837-1800 ext.4
                 </div>
                 <div className="col-4">
-                  <img src={email} className="icons"/>
+                  <a href="mailto:hanemiranda@aol.com"><img src={email} className="icons"/></a>
                   <br></br>
                   kip@art760.com
                 </div>
@@ -43,7 +43,7 @@ class Contact extends Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery query="(max-width: 768px)">
+        <MediaQuery query="(max-width: 769px)">
           <div className="row">
             <div className="col-12 contact">
               <Navbar></Navbar>
@@ -54,12 +54,12 @@ class Contact extends Component {
 
                 <div className="row assets">
                   <div className="col-4">
-                    <img src={phone} className="icons" />
+                    <a href="tel:7608371800"><img src={phone} className="icons" /></a>
                     <br></br>
                     (760)837-1800 ext.4
                   </div>
                   <div className="col-4">
-                    <img src={email} className="icons"/>
+                    <a href="mailto:hanemiranda@aol.com"><img src={email} className="icons"/></a>
                     <br></br>
                     kip@art760.com
                   </div>

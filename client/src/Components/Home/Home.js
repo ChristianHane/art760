@@ -5,7 +5,7 @@ import Carousel from'../Carousel.js';
 import Ads from '../Ads/Ads.js';
 import MediaQuery from 'react-responsive';
 import Categories from '../Categories/Categories.js';
-
+import Cities from '../Cities/Cities.js';
 
 class Home extends Component {
   render() {
@@ -21,6 +21,8 @@ class Home extends Component {
                     <Carousel></Carousel>
                     <br></br>
                     <Categories></Categories>
+                    <br></br>
+                    <Cities></Cities>
                   </div>
                   <div className="col-4 col-xs-12 float-right">
                     <Ads></Ads>
@@ -29,7 +31,7 @@ class Home extends Component {
               </MediaQuery>
 
 
-              <MediaQuery query="(max-width:768px)">
+              <MediaQuery query="(max-width:767px)">
                 <div className="row">
                   <div className="col-12">
                     <Navbar></Navbar>
@@ -37,6 +39,8 @@ class Home extends Component {
                     <Carousel></Carousel>
                     <br></br>
                     <Categories></Categories>
+                    <br></br>
+                    <Cities></Cities>
                   </div>
                 </div>
                 <div className="row">

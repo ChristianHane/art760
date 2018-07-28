@@ -89,7 +89,8 @@ import JwPagination from "jw-react-pagination";
 import API from '../../utils/API';
 import ResultCard from './ResultCard';
 import Ads from '../Ads/Ads';
-
+import Navbar from '../Nav/Navbar.js';
+import './ResultsPage.css';
 class ResultsPage extends React.Component {
   constructor() {
     super();
@@ -148,7 +149,7 @@ class ResultsPage extends React.Component {
     console.log(this.state);
     if(this.state.items.length > 0) {
       return (
-        <div>
+        <div className="container">
           {/* <h1>React - Pagination Example with logic like Google</h1>
           {this.state.pageOfItems.map(item => (
             <div key={item.id}>{item.name}</div>
@@ -157,9 +158,21 @@ class ResultsPage extends React.Component {
             items={this.state.items}
             onChangePage={this.onChangePage}
           /> */}
-          {this.state.items.map(business => {
-            return <ResultCard business={business}/>
-          })}
+          <div className="row">
+            <div className="col-8">
+              <Navbar/>
+              <br></br>
+              <ul className="list-group cards">
+                {this.state.items.map(business => {
+                  return <ResultCard business={business}/>
+                })}
+              </ul>
+            </div>
+            <div className="col-4">
+              <Ads/>
+            </div>
+          </div>
+
         </div>
       );
     } else {

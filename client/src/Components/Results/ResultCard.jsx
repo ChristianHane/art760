@@ -6,12 +6,21 @@ class ResultCard extends Component {
     const business = this.props.business;
     console.log(business);
     return(
-      <div className={business.city}>
-        <span>{business.name}</span>
-        <span>{`${business.streetAddress} ${business.suite} ${business.city}`}</span>
-        <span>{business.phone}</span>
-        <Link to={business.website} target="_blank">{`Visit ${business.name}'s Website`}</Link>
-      </div>
+      <li className="list-group-item">
+        <div className={business.city}>
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <p>Business Name: {business.name}</p>
+                <p>Address: {`${business.streetAddress} ${business.suite} ${business.city}`}</p>
+                <p>Phone: {business.phone}</p>
+                <a href={business.website} target="_blank">{`Visit ${business.name}'s Website`}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+
     )
   }
 }

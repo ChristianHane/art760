@@ -1,4 +1,5 @@
 import React,  { Component } from 'react';
+import { Link } from 'react-router-dom';
 import MediaQuery from 'react-responsive';
 import './Categories.css';
 import museum from '../../Images/museum.png';
@@ -23,22 +24,22 @@ class Categories extends Component {
           <MediaQuery query='(min-width:768px)'>
             <div className="row fixme">
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={museum}/>
+                <Link to='/results?type=category&category=Museum' ><img className="img-fluid categoryIcons " src={museum}/></Link>
                 <br></br>
                 <a href="#"className="btn museum">MUSEUMS</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={art}/>
+                <Link to='/results?type=category&category=Art Galleries' ><img className="img-fluid categoryIcons " src={art}/></Link>
                 <br></br>
                 <a href="#" className="btn">ART GALLERIES</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={events}/>
+                <Link to='/results?type=category&category=Events and Tours' ><img className="img-fluid categoryIcons " src={events}/></Link>
                 <br></br>
                 <a href="#" className="btn">EVENTS & TOURS</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={entertainment}/>
+                <Link to='/results?type=category&category=Live Entertainment' ><img className="img-fluid categoryIcons " src={entertainment}/></Link>
                 <br></br>
                 <a href="#" className="btn">LIVE ENTERTAINMENT</a>
               </div>
@@ -46,22 +47,22 @@ class Categories extends Component {
             <br></br>
             <div className="row">
               <div className="col-3">
-                <img className="img-fluid float-left categoryIcons compIcons " src={organization}/>
+                <Link to='/results?type=category&category=Organizations' ><img className="img-fluid float-left categoryIcons compIcons " src={organization}/></Link>
                 <br></br>
                 <a href="#" className="btn">ORGANIZATIONS</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons compIcons" src={film}/>
+                <Link to='/results?type=category&category=Films and Movies' ><img className="img-fluid categoryIcons compIcons" src={film}/></Link>
                 <br></br>
                 <a href="#" className="btn">FILM & MOVIES</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons compIcons" src={retail}/>
+                <Link to='/results?type=category&category=Retail and Other' ><img className="img-fluid categoryIcons compIcons" src={retail}/></Link>
                 <br></br>
                 <a href="#" className="btn">RETAIL/OTHER</a>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons compIcons" src={theatre}/>
+                <Link to='/results?type=category&category=Theatre and Stage' ><img className="img-fluid categoryIcons compIcons" src={theatre}/></Link>
                 <br></br>
                 <a href="#" className="btn">THEATRE & STAGE</a>
               </div>

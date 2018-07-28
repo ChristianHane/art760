@@ -258,7 +258,7 @@ class AddModal extends React.Component {
                       removeCategory={this.removeCategory}
                     />
                     <CheckBox
-                      category="Retail/Other"
+                      category="Retail and Other"
                       addCategory={this.addCategory}
                       removeCategory={this.removeCategory}
                     />

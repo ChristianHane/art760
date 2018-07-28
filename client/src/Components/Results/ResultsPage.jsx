@@ -121,6 +121,7 @@ class ResultsPage extends React.Component {
     } else if(type === 'city') {
       try {
         const city = this.getParameterByName('city');
+        console.log(city);
         const results = await API.getCityResults(city);
 
         this.setState({ items: results });

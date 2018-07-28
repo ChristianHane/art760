@@ -5,6 +5,12 @@
   font-size: 20px;
   font-weight: bold;
 }
+.intro {
+  width: 70%;
+  text-align: center;
+  margin-left: 90px;
+}
+
 .PalmSprings {
   color: #F42272;
 }
@@ -34,4 +40,7 @@ color: #90EE90;
 }
 .DesertHotSprings {
   color: #FF7A28;
+}
+.Idyllwild {
+  
 }

@@ -17,6 +17,7 @@ class Legend extends Component {
             <ListGroupItem><span className="HighDesert">High Desert</span></ListGroupItem>
             <ListGroupItem><span className="DesertHotSprings">Desert Hot Springs</span></ListGroupItem>
             <ListGroupItem><span className="CoachellaValley">Coachella Valley</span></ListGroupItem>
+            <ListGroupItem><span className="Idyllwild">Idyllwild</span></ListGroupItem>
           </ListGroup>
         </MediaQuery>
         <MediaQuery query="(max-width: 767px)">
@@ -31,6 +32,7 @@ class Legend extends Component {
             <ListGroupItem><span className="HighDesert">High Desert</span></ListGroupItem>
             <ListGroupItem><span className="DesertHotSprings">Desert Hot Springs</span></ListGroupItem>
             <ListGroupItem><span className="CoachellaValley">Coachella Valley</span></ListGroupItem>
+            <ListGroupItem><span className="Idyllwild">Idyllwild</span></ListGroupItem>
           </ListGroup>
         </MediaQuery>
       </div>

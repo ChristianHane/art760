@@ -5,6 +5,7 @@ class Cities extends Component {
   render(){
     return(
       <div>
+        <p className="intro">THIS IS A COLOR CODED ALPHABETICAL LISTING OF ALL THE VENUES, GALLERIES, SHOPS, RESTAURANTS AND EVERYTHING ELSE THE PALM SPRINGS AREA HAS TO OFFER</p>
         <MediaQuery query='(min-width: 768px)'>
           <div className="row">
             <div className="col-4">
@@ -29,6 +30,7 @@ class Cities extends Component {
             <div className="col-4">
               <button className="btn here Indio">INDIO</button>
               <br></br>
+              <button className="btn here Idyllwild">IDYLLWILD</button>
             </div>
 
             <div className="col-4">
@@ -66,6 +68,7 @@ class Cities extends Component {
             <div className="col-4">
               <button className="btn here Indio">INDIO</button>
               <br></br>
+              <button className="btn here Idyllwild">IDYLLWILD</button>
             </div>
 
             <div className="col-4">

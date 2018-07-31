@@ -16,7 +16,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "concurrently \"mongod\" \"nodemon server.js\" \"cd ./client && npm start\""
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

@@ -6,10 +6,11 @@
 }
 .header {
   background-color: #666;
-  padding: 1px 1px 1px 1px;
+  padding: 1px;
   text-align: center;
   height: 225px;
   width: 100%;
+  overflow: hidden;
 }
 
 #art {
@@ -47,4 +48,5 @@
   text-align: center;
   height: 330px;
   width: 100%;
+  overflow:hidden;
 }

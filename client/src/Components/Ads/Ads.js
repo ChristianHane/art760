@@ -19,7 +19,7 @@ const ad2 = [
 class Ads extends Component {
   render(){
     return(
-      <div>
+      <div className="adsBox">
         <MediaQuery query='(min-width: 769px)'>
           <div className="ads float-right">
             <figure>

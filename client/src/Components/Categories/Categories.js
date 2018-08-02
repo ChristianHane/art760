@@ -18,100 +18,226 @@ const organizationLeft = {
 class Categories extends Component {
   render(){
     return(
-      <div className="container clearfix">
+      <div className="container clearfix categories">
         <hr className="line2"></hr>
         <hr className="line"></hr>
           <MediaQuery query='(min-width:768px)'>
-            <div className="row fixme">
+            <div className="row">
               <div className="col-3">
-                <Link to='/results?type=category&category=Museum' ><img className="img-fluid categoryIcons " src={museum}/></Link>
-                <br></br>
-                <a href="#"className="btn museum">MUSEUMS</a>
+                <div className="crate">
+                  <img className="categoryIcons" src={museum}/>
+                  <br></br>
+                  <a href="#"className="btn">MUSEUMS</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Museums' className="iconLink">Museums</Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Art Galleries' ><img className="img-fluid categoryIcons " src={art}/></Link>
-                <br></br>
-                <a href="#" className="btn">ART GALLERIES</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={art}/>
+                  <br></br>
+                  <a href="#" className="btn">GALLERIES</a>
+                    <div className="overlay">
+                      <div className="text">
+                        <Link to='/results?type=category&category=Art Galleries' className="iconLink" >Art | Sculpture Gardens</Link>
+                      </div>
+                    </div>
+                </div>
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Events and Tours' ><img className="img-fluid categoryIcons " src={events}/></Link>
-                <br></br>
-                <a href="#" className="btn">EVENTS & TOURS</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={events}/>
+                  <br></br>
+                  <a href="#" className="btn">EVENTS & TOURS</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Events and Tours' className="iconLink" >Festivals | Walks</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Live Entertainment' ><img className="img-fluid categoryIcons " src={entertainment}/></Link>
-                <br></br>
-                <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={entertainment}/>
+                    <br></br>
+                    <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Live Entertainment' className="iconLink" >Music | Radio | TV</Link>
+                    </div>
+                  </div>
+                </div>
+
+
               </div>
             </div>
             <br></br>
             <div className="row">
               <div className="col-3">
-                <Link to='/results?type=category&category=Organizations' ><img className="img-fluid float-left categoryIcons compIcons " src={organization}/></Link>
-                <br></br>
-                <a href="#" className="btn">ORGANIZATIONS</a>
+                <div className="crate">
+                  <img className="float-left categoryIcons compIcons " src={organization}/>
+                  <br></br>
+                  <a href="#" className="btn">ORGANIZATIONS</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Organizations' className="iconLink">Associations | Organizations</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Films and Movies' ><img className="img-fluid categoryIcons compIcons" src={film}/></Link>
-                <br></br>
-                <a href="#" className="btn">FILM & MOVIES</a>
+                <div className="crate">
+                  <img className="categoryIcons compIcons" src={film}/>
+                  <br></br>
+                  <a href="#" className="btn">FILM & MOVIES</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Films and Movies' className="iconLink" >Film | Movies</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Retail and Other' ><img className="img-fluid categoryIcons compIcons" src={retail}/></Link>
-                <br></br>
-                <a href="#" className="btn">RETAIL/OTHER</a>
+                <div className='crate'>
+                  <img className="categoryIcons compIcons" src={retail}/>
+                  <br></br>
+                  <a href="#" className="btn">RETAIL/OTHER</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Retail and Other' className="iconLink"> Art Supplies | Framing</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <Link to='/results?type=category&category=Theatre and Stage' ><img className="img-fluid categoryIcons compIcons" src={theatre}/></Link>
-                <br></br>
-                <a href="#" className="btn">THEATRE & STAGE</a>
+                <div className="crate">
+                  <img className="categoryIcons compIcons" src={theatre}/>
+                  <br></br>
+                  <a href="#" className="btn">THEATRE & STAGE</a>
+
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Theatre and Stage' className="iconLink" >Theatre | Stage</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 
           </MediaQuery>
           <MediaQuery query='(max-width:767px)'>
-            <div className="row fixme">
+            <div className="row">
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={museum}/>
-                <br></br>
-                <a href="#" className="btn here">MUSEUM</a>
+                <div className="crate">
+                  <img className="categoryIcons" src={museum}/>
+                  <br></br>
+                  <a href="#"className="btn here">MUSEUMS</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Museums' className="iconLink" >Museums</Link>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={art}/>
-                <br></br>
-                <a href="#" className="btn here">ART GALLERIES</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={art}/>
+                  <br></br>
+                  <a href="#" className="btn here">GALLERIES</a>
+                    <div className="overlay">
+                      <div className="text">
+                        <Link to='/results?type=category&category=Art Galleries' className='iconLink' >Art | Sculpture Gardens </Link>
+                      </div>
+                    </div>
+                </div>
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={events}/>
-                <br></br>
-                <a href="#" className="btn here">EVENTS & TOURS</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={events}/>
+                  <br></br>
+                  <a href="#" className="btn here"><span className="fixme">EVENTS & TOURS</span></a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Events and Tours' className="iconLink" >Festivals | Walks</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={entertainment}/>
-                <br></br>
-                <a href="#" className="btn here">LIVE ENTERTAINMENT</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={entertainment}/>
+                  <br></br>
+                  <a href="#" className="btn here"><span className="fixme2">LIVE</span><br></br><span className="fixme3">ENTERTAINMENT</span></a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Live Entertainment' className="iconLink" >Music | Radio | TV</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
             <div className="row">
               <div className="col-3">
-                <img className="img-fluid floar-right categoryIcons" src={organization}/>
-                <br></br>
-                <a href="#" className="btn here" style={organizationLeft}>ORGANIZATIONS</a>
+                <div className="crate">
+                  <img className="categoryIcons" src={organization}/>
+                  <br></br>
+                  <a href="#" className="btn here">ORGANIZATIONS</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Organizations' className="iconLink">Associations | Organizations</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={film}/>
-                <br></br>
-                <a href="#" className="btn here">FILM & MOVIES</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={film}/>
+                  <br></br>
+                  <a href="#" className="btn here">FILM & MOVIES</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Films and Movies' className="iconLink" >Film | Movies</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={retail}/>
-                <br></br>
-                <a href="#" className="btn here">RETAIL/OTHER</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={retail}/>
+                  <br></br>
+                  <a href="#" className="btn here">RETAIL/OTHER</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Retail and Other' className="iconLink"> Art Supplies | Framing</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
               <div className="col-3">
-                <img className="img-fluid categoryIcons " src={theatre}/>
-                <br></br>
-                <a href="#" className="btn here">THEATRE & STAGE</a>
+                <div className="crate">
+                  <img className="categoryIcons " src={theatre}/>
+                  <br></br>
+                  <a href="#" className="btn here">THEATRE <br></br>& <br></br>STAGE</a>
+                  <div className="overlay">
+                    <div className="text">
+                      <Link to='/results?type=category&category=Theatre and Stage' className="iconLink" >Theatre | Stage</Link>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
 

@@ -20,7 +20,7 @@ class Ads extends Component {
   render(){
     return(
       <div>
-        <MediaQuery query='(min-width: 768px)'>
+        <MediaQuery query='(min-width: 769px)'>
           <div className="ads float-right">
             <figure>
               <ImageResponsive
@@ -66,7 +66,7 @@ class Ads extends Component {
             </figure>
           </div>
         </MediaQuery>
-        <MediaQuery query="(max-width:767px)">
+        <MediaQuery query="(max-width:768px)">
           <div className="ads2">
             <figure>
               <ImageResponsive

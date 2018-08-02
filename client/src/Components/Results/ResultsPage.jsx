@@ -91,6 +91,9 @@ import ResultCard from './ResultCard';
 import Ads from '../Ads/Ads';
 import Navbar from '../Nav/Navbar.js';
 import './ResultsPage.css';
+import MediaQuery from 'react-responsive';
+
+
 class ResultsPage extends React.Component {
   constructor() {
     super();
@@ -150,6 +153,7 @@ class ResultsPage extends React.Component {
     console.log(this.state);
     if(this.state.items.length > 0) {
       return (
+
         <div className="container">
           {/* <h1>React - Pagination Example with logic like Google</h1>
           {this.state.pageOfItems.map(item => (
@@ -159,22 +163,42 @@ class ResultsPage extends React.Component {
             items={this.state.items}
             onChangePage={this.onChangePage}
           /> */}
-          <div className="row">
-            <div className="col-8">
-              <Navbar/>
-              <br></br>
-              <ul className="list-group cards">
-                {this.state.items.map(business => {
-                  return <ResultCard business={business}/>
-                })}
-              </ul>
+          <MediaQuery query='(min-width:769px)'>
+            <div className="row">
+              <div className="col-8 float-left">
+                <Navbar/>
+                <br></br>
+                <ul className="list-group cards">
+                  {this.state.items.map(business => {
+                    return <ResultCard business={business}/>
+                  })}
+                </ul>
+              </div>
+              <div className="col-4 float-right">
+                <Ads/>
+              </div>
             </div>
-            <div className="col-4">
-              <Ads/>
+          </MediaQuery>
+          <MediaQuery query='(max-width:768px)'>
+            <div className="row ads">
+              <div className="col-12">
+                <Navbar/>
+                <br></br>
+                <ul className="list-group cards">
+                  {this.state.items.map(business => {
+                    return <ResultCard business={business}/>
+                  })}
+                </ul>
+              </div>
+              <div className="col-xs-12">
+                <Ads/>
+              </div>
             </div>
-          </div>
-
+          </MediaQuery>
         </div>
+
+
+
       );
     } else {
       return null;

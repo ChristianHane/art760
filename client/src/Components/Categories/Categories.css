@@ -1,15 +1,11 @@
 .btn {
 color:black}
 
-.categoryList li {
-  display: inline;
-  padding: 15px;
-  margin-bottom: 5px;
+.categories {
+  overflow: hidden;
+  text-align: center;
 }
-.categoryList2 li {
-  display: inline;
-  padding: 5em;
-}
+
 .line {
   display: block;
    height: 2px;
@@ -31,13 +27,7 @@ color:black}
 }
 
 
-.fixme {
-  text-align: center;
-}
 
-.museum {
-  margin-left: -10px;
-}
 
 .categoryIcons {
   height: 40px;
@@ -48,6 +38,54 @@ color:black}
 
 .here:link {
   color:black;
-  font-size: 15px;
+  font-size: 10px;
   margin-left: -10px;
+}
+/*overlay*/
+.crate {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.crate:hover .crate:active .overlay  {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.iconLink, .iconLink:visited, .iconLink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.fixme {
+  margin-left: -10px;
+}
+.fixme2 {
+  margin-left: -30px;
+  text-align: center;
+}
+.fixme3 {
+  margin-left: -13px;
 }

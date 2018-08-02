@@ -1,19 +1,35 @@
 import React, {Component} from 'react';
 import './Header.css';
-import logo from '../../Images/art760Logo.png';
+import ImageResponsive from 'react-image-responsive';
+import logo1 from '../../Images/art760Logo.png';
+import logo2 from '../../Images/art760LogoSmall.png';
 import MediaQuery from 'react-responsive';
+
+const logo = [
+  {maxWidth: 800, src:logo1},
+  {maxWidth: 300, src: logo2}
+]
+
 class Header extends Component {
   render() {
     return (
       <div>
-    <MediaQuery query="(min-width: 768px)">
+    <MediaQuery query="(min-width: 769px)">
       <div className="header">
       <hr className="lines2"></hr>
       <hr className="lines"></hr>
         <div className="container-fluid clearfix">
           <div className="col-md-6 float-left">
-            <a href="/"><img className="logo"src={logo}/></a>
-            </div>
+            <a href="/">
+              <figure>
+                <ImageResponsive
+                  width= "20%"
+                  sources={logo}
+                  height="200px"
+                  />
+              </figure>
+            </a>
+          </div>
           <div className="col-md-6 float-right">
             <div className="side">
               <h4>Your Desert guide to </h4>
@@ -27,15 +43,23 @@ class Header extends Component {
         <hr className="lines2"></hr>
       </div>
     </MediaQuery>
-    <MediaQuery query="(max-width:767px)">
+    <MediaQuery query="(max-width:768px)">
       <div className="header2">
       <hr className="lines2"></hr>
       <hr className="lines"></hr>
         <div className="container-fluid clearfix">
-          <div className="col-md-6 float-left">
-            <a href="/"><img className="logo"src={logo}/></a>
-            </div>
-          <div className="col-md-6 float-right">
+          <div className="col-md-12 float-left">
+            <a href="/">
+              <figure>
+                <ImageResponsive
+                  width= "20%"
+                  sources={logo}
+                  height="200px"
+                  />
+              </figure>
+            </a>
+          </div>
+          <div className="col-md-12 float-right">
             <div className="side">
               <h4>Your Desert guide to </h4>
               <h4>all things <span id="art">ART</span> and more!</h4>

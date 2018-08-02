@@ -3,9 +3,9 @@ import React, {Component} from 'react';
 import Navbar from '../Nav/Navbar.js';
 import Carousel from'../Carousel.js';
 import Ads from '../Ads/Ads.js';
-import MediaQuery from 'react-responsive';
 import Categories from '../Categories/Categories.js';
 import Cities from '../Cities/Cities.js';
+import MediaQuery from 'react-responsive';
 
 class Home extends Component {
   render() {
@@ -13,7 +13,7 @@ class Home extends Component {
       <div>
           <div className="container clearfix">
 
-              <MediaQuery query='(min-width:768px)'>
+              <MediaQuery query='(min-width:769px)'>
                 <div className="row">
                   <div className="col-8 col-xs-12 float-left">
                     <Navbar></Navbar>
@@ -31,7 +31,7 @@ class Home extends Component {
               </MediaQuery>
 
 
-              <MediaQuery query="(max-width:767px)">
+              <MediaQuery query="(max-width:768px)">
                 <div className="row">
                   <div className="col-12">
                     <Navbar></Navbar>

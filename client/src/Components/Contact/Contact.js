@@ -10,7 +10,7 @@ class Contact extends Component {
   render(){
     return(
       <div className="container clearfix">
-        <MediaQuery query="(min-width: 768px)">
+        <MediaQuery query="(min-width: 1165px)">
           <div className="row">
             <div className="col-8 float-left contact">
               <Navbar></Navbar>
@@ -21,9 +21,9 @@ class Contact extends Component {
               <br></br>
               <div className="row assets">
                 <div className="col-4">
-                  <a href="tel:7608371800"><img src={phone} className="icons" /></a>
+                  <a href="tel:7605655000"><img src={phone} className="icons" /></a>
                   <br></br>
-                  (760)837-1800 ext.4
+                  (760)565-5000 ext.4
                 </div>
                 <div className="col-4">
                   <a href="mailto:kip@art760.com"><img src={email} className="icons"/></a>
@@ -37,13 +37,18 @@ class Contact extends Component {
                   Palm Springs, CA 92264
                 </div>
               </div>
+              <br></br>
+              Interested in advertising with us?
+              <br></br>
+              <a href="/advertise"className="btn advertiseBtn">Advertise</a>
             </div>
             <div className="col-4 float-right">
               <Ads></Ads>
             </div>
           </div>
+
         </MediaQuery>
-        <MediaQuery query="(max-width: 769px)">
+        <MediaQuery query="(max-width: 1164px)">
           <div className="row">
             <div className="col-12 contact">
               <Navbar></Navbar>
@@ -54,9 +59,9 @@ class Contact extends Component {
 
                 <div className="row assets">
                   <div className="col-4">
-                    <a href="tel:7608371800"><img src={phone} className="icons" /></a>
+                    <a href="tel:7605655000"><img src={phone} className="icons" /></a>
                     <br></br>
-                    (760)837-1800 ext.4
+                    (760)565-5000 ext.4
                   </div>
                   <div className="col-4">
                     <a href="mailto:kip@art760.com"><img src={email} className="icons"/></a>
@@ -70,6 +75,10 @@ class Contact extends Component {
                     Palm Springs, CA 92264
                   </div>
                 </div>
+                <br></br>
+                Interested in advertising with us?
+                <br></br>
+                <a href="/advertise"className="btn advertiseBtn">Advertise</a>
 
             </div>
           </div>

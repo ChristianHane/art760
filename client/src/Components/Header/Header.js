@@ -7,9 +7,15 @@ import MediaQuery from 'react-responsive';
 
 const logo = [
   {maxWidth: 800, src:logo1},
-  {maxWidth: 300, src: logo2}
+  {maxWidth: 300, src:logo2}
 ]
-
+// <figure>
+//   <ImageResponsive
+//     width= "20%"
+//     sources={logo}
+//     height="200px"
+//     />
+// </figure>
 class Header extends Component {
   render() {
     return (
@@ -21,13 +27,7 @@ class Header extends Component {
         <div className="container-fluid clearfix">
           <div className="col-md-6 float-left">
             <a href="/">
-              <figure>
-                <ImageResponsive
-                  width= "20%"
-                  sources={logo}
-                  height="200px"
-                  />
-              </figure>
+              <img className="logo"src={logo1} alt="logo"/>
             </a>
           </div>
           <div className="col-md-6 float-right">

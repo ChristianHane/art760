@@ -13,7 +13,7 @@ class Home extends Component {
       <div>
           <div className="container clearfix">
 
-              <MediaQuery query='(min-width:769px)'>
+              <MediaQuery query='(min-width:1166px)'>
                 <div className="row">
                   <div className="col-8 col-xs-12 float-left">
                     <Navbar></Navbar>
@@ -31,7 +31,7 @@ class Home extends Component {
               </MediaQuery>
 
 
-              <MediaQuery query="(max-width:768px)">
+              <MediaQuery query="(max-width:1165px)">
                 <div className="row">
                   <div className="col-12">
                     <Navbar></Navbar>

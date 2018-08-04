@@ -21,7 +21,7 @@ class Categories extends Component {
       <div className="container clearfix categories">
         <hr className="line2"></hr>
         <hr className="line"></hr>
-          <MediaQuery query='(min-width:601px)'>
+          <MediaQuery query='(min-width:766px)'>
             <div className="row">
               <div className="col-3">
                 <div className="crate">
@@ -133,7 +133,7 @@ class Categories extends Component {
             </div>
 
           </MediaQuery>
-          <MediaQuery query='(max-width:600px)'>
+          <MediaQuery query='(max-width:765px)'>
             <div className="row">
               <div className="col-3">
                 <div className="crate">

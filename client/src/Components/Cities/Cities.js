@@ -7,7 +7,7 @@ class Cities extends Component {
     return(
       <div className="cities">
         <p className="intro">THIS IS A COLOR CODED ALPHABETICAL LISTING OF ALL THE VENUES, GALLERIES, SHOPS, RESTAURANTS AND EVERYTHING ELSE THE PALM SPRINGS AREA HAS TO OFFER</p>
-        <MediaQuery query='(min-width: 769px)'>
+        <MediaQuery query='(min-width: 765px)'>
           <div className="row rowA">
             <div className="col-4">
               <Link to='/results?type=city&city=Palm Springs' ><button className="btn here2 PalmSprings">PALM SPRINGS</button></Link>
@@ -52,7 +52,7 @@ class Cities extends Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery query='(max-width: 768px)'>
+        <MediaQuery query='(max-width: 764px)'>
           <div className="row rowB">
             <div className="col-4">
               <Link to='/results?type=city&city=Palm Springs' ><button className="btn here3 PalmSprings">PALM SPRINGS</button></Link>

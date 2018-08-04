@@ -20,7 +20,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-    <MediaQuery query="(min-width: 769px)">
+    <MediaQuery query="(min-width: 915px)">
       <div className="header">
       <hr className="lines2"></hr>
       <hr className="lines"></hr>
@@ -43,7 +43,7 @@ class Header extends Component {
         <hr className="lines2"></hr>
       </div>
     </MediaQuery>
-    <MediaQuery query="(max-width:768px)">
+    <MediaQuery query="(max-width:914px)">
       <div className="header2">
       <hr className="lines2"></hr>
       <hr className="lines"></hr>

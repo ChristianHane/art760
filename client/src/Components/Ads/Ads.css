@@ -1,7 +1,11 @@
-.ads {
+/*.ads {
   padding-top: 25px;
 }
 
 .ads2 {
   padding-left: 45px;
+}*/
+
+.adsBox {
+  align-items: center;
 }

@@ -38,7 +38,7 @@ color:black}
 
 .here:link {
   color:black;
-  font-size: 10px;
+  font-size: 8px;
   margin-left: -10px;
 }
 /*overlay*/
@@ -60,7 +60,7 @@ color:black}
   background-color: #008CBA;
 }
 
-.crate:hover .crate:active .overlay  {
+.crate:hover .overlay  {
   opacity: 1;
 }
 

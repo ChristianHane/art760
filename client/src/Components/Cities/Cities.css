@@ -11,7 +11,7 @@
   font-size: 12px;
   font-weight: 800;
 }
-.DHS {
+.dHS {
   margin-left: -13px;
 }
 .intro {
@@ -24,12 +24,12 @@
   overflow:hidden;
 }
 
-
+/*
 .PalmSprings {
   color: #F42272;
 }
 .PalmDesert {
-  color: #EFAAC4;
+  color: #90EE90;
 }
 .IndianWells {
   color: #56A3A6;
@@ -53,8 +53,9 @@ color: #90EE90;
   color: #C1B23E;
 }
 .DesertHotSprings {
-  color: #FF7A28;
+  color: #0269ef;
 }
 /* .Idyllwild {
+
 
 } */

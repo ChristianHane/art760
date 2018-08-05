@@ -23,7 +23,7 @@ class Footer extends Component {
             <h6>ART760 - The K I P Group</h6>
             <h6>1775 East Palm Canyon Drive Ste 110-250</h6>
             <h6>Palm Springs, CA 92264</h6>
-            <h6>VM/Txt/Fax: 760.837.1800 ext 4</h6>
+            <h6>VM/Txt/Fax: 760.565.5000 ext 4</h6>
           </div>
           <div >
             <h6>kip@art760.com</h6>
@@ -32,6 +32,7 @@ class Footer extends Component {
             <a href="#"class="fa fa-twitter iconStyle2"></a>
           </div>
           <div className=" float-right">
+            &copy; Art760 2018
           </div>
         </div>
       </div>

@@ -21,7 +21,7 @@ class Categories extends Component {
       <div className="container clearfix categories">
         <hr className="line2"></hr>
         <hr className="line"></hr>
-          <MediaQuery query='(min-width:768px)'>
+          <MediaQuery query='(min-width:766px)'>
             <div className="row">
               <div className="col-3">
                 <div className="crate">
@@ -64,7 +64,7 @@ class Categories extends Component {
                 <div className="crate">
                   <img className="categoryIcons " src={entertainment}/>
                     <br></br>
-                    <a href="#" className="btn">LIVE ENTERTAINMENT</a>
+                    <a href="#" className="btn">LIVE<br></br> ENTERTAINMENT</a>
                   <div className="overlay">
                     <div className="text">
                       <Link to='/results?type=category&category=Live Entertainment' className="iconLink" >Music | Radio | TV</Link>
@@ -133,7 +133,7 @@ class Categories extends Component {
             </div>
 
           </MediaQuery>
-          <MediaQuery query='(max-width:767px)'>
+          <MediaQuery query='(max-width:765px)'>
             <div className="row">
               <div className="col-3">
                 <div className="crate">

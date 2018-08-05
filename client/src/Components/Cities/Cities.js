@@ -7,7 +7,7 @@ class Cities extends Component {
     return(
       <div className="cities">
         <p className="intro">THIS IS A COLOR CODED ALPHABETICAL LISTING OF ALL THE VENUES, GALLERIES, SHOPS, RESTAURANTS AND EVERYTHING ELSE THE PALM SPRINGS AREA HAS TO OFFER</p>
-        <MediaQuery query='(min-width: 765px)'>
+        <MediaQuery query='(min-width: 768px)'>
           <div className="row rowA">
             <div className="col-4">
               <Link to='/results?type=city&city=Palm Springs' ><button className="btn here2 PalmSprings">PALM SPRINGS</button></Link>
@@ -35,7 +35,7 @@ class Cities extends Component {
               <Link to='/results?type=city&city=Indio' ><button className="btn here2 Indio">INDIO</button></Link>
               <br></br>
 
-              <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here2 PalmDesert">DESERT HOT SPRINGS</button></Link>
+              <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here2 DesertHotSprings">DESERT HOT SPRINGS</button></Link>
 
             </div>
 
@@ -52,7 +52,7 @@ class Cities extends Component {
             </div>
           </div>
         </MediaQuery>
-        <MediaQuery query='(max-width: 764px)'>
+        <MediaQuery query='(max-width: 767px)'>
           <div className="row rowB">
             <div className="col-4">
               <Link to='/results?type=city&city=Palm Springs' ><button className="btn here3 PalmSprings">PALM SPRINGS</button></Link>
@@ -83,7 +83,7 @@ class Cities extends Component {
               <Link to='/results?type=city&city=Indio' ><button className="btn here3 Indio">INDIO</button></Link>
               <br></br>
 
-              <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here3 DesertHotSprings"><span className="DHS">DESERT HOT SPRINGS</span></button></Link>
+              <Link to='/results?type=city&city=Desert Hot Springs' ><button className="btn here3 DesertHotSprings"><span className="dHS">DESERT HOT SPRINGS</span></button></Link>
 
             </div>
 

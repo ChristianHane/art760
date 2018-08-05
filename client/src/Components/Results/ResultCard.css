@@ -2,22 +2,22 @@
   color: #F42272;
 }
 .PalmDesert, .PalmDesert a {
-  color: #EFAAC4;
+  color: #00ff00;
 }
 .IndianWells, .IndianWells a {
   color: #56A3A6;
 }
 .RanchoMirage, .RanchoMirage a {
-color: #D1ADFF;
+color: #FF6600;
 }
 .CathedralCity, .CathedralCity a {
-color: #90EE90;
+color: #9D00FF;
 }
 .LaQuinta, .LaQuinta a{
   color:#E49F00;
 }
 .Indio, .Indio a{
-  color: #A30015;
+  color: #0062FF;
 }
 .HighDesert, .HighDesert a {
   color: #26C9F2;
@@ -26,5 +26,8 @@ color: #90EE90;
   color: #C1B23E;
 }
 .DesertHotSprings, .DesertHotSprings a{
-  color: #FF7A28;
+  color: #d600ff;
+}
+.Idyllwild, .Idyllwild a {
+  color: ;
 }

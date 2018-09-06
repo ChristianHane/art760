@@ -50,6 +50,9 @@ class Navbar extends Component {
             <NavItem>
               <NavLink href="/contact" style={desktopPills, navStyle}>CONTACT</NavLink>
             </NavItem>
+            <NavItem>
+              <NavLink href="/gallery" style={desktopPills, navStyle}>GALLERY</NavLink>
+            </NavItem>
           </Nav>
           <hr className="lines"></hr>
         </MediaQuery>
@@ -64,6 +67,9 @@ class Navbar extends Component {
             </NavItem>
             <NavItem>
               <NavLink href="/contact" style={phonePills, navStyle}>CONTACT</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="/gallery" style={phonePills, navStyle}>GALLERY</NavLink>
             </NavItem>
           </Nav>
           <hr className="lines"></hr>
